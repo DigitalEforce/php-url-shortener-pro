@@ -12,13 +12,13 @@ Built with **Bootstrap 5** for a modern, responsive interface. Easily shorten UR
 
 ## 🌟 Features
 
-- Shorten URLs with `/r/shortcode` format
-- Admin dashboard to view all shortened URLs and click statistics
-- Guest/registered user tracking
-- Click analytics with timestamp and country
-- Secure project structure (`app/`, `api/`, `public/`)
-- Clean, responsive UI with **Bootstrap 5**
-- Optional QR code generation for shortened URLs
+- Shorten URLs with `/r/shortcode` format  
+- Admin dashboard to view all shortened URLs and click statistics  
+- Guest/registered user tracking  
+- Click analytics with timestamp, IP, user-agent, and country  
+- Secure project structure (`app/`, `api/`, `public/`)  
+- Clean, responsive UI with **Bootstrap 5**  
+- Optional QR code generation for shortened URLs  
 
 ---
 
@@ -26,19 +26,19 @@ Built with **Bootstrap 5** for a modern, responsive interface. Easily shorten UR
 
 1. **Clone the repository**
 
-\`\`\`bash
+```bash
 git clone https://github.com/DigitalEforce/php-url-shortener-pro.git
-\`\`\`
+
 
 2. **Import the database** via `database/database.sql`.
 3. **Configure database** in `app/config.php`:
 
-\`\`\`php
+\`php
 $host = "localhost";
 $dbname = "url_shortener";
 $username = "root";
 $password = "";
-\`\`\`
+\`
 
 4. **Set up `.htaccess`** (optional, for `/r/shortcode` URLs)
 
