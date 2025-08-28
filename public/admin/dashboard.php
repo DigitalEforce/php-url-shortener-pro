@@ -26,10 +26,21 @@ body { font-family:'Poppins',sans-serif; background:#f8f9fa; }
 .card { padding:2rem; border-radius:15px; margin-top:20px; box-shadow:0 10px 25px rgba(0,0,0,0.1);}
 </style>
 </head>
-<body class="container py-5">
-<h2 class="mb-4">Admin Dashboard</h2>
-<a href="../index.php" class="btn btn-secondary mb-3">Homepage</a>
-
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.php">URL Shortener Admin</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="dashboard.php">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="analytics.php">Analytics</a></li>
+        <li class="nav-item"><a class="nav-link" href="logout.php">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container py-5">
+<h2>Dashboard</h2>
 <div class="card">
 <table class="table table-striped table-hover">
 <thead class="table-dark">
@@ -53,6 +64,7 @@ body { font-family:'Poppins',sans-serif; background:#f8f9fa; }
 <?php endforeach; ?>
 </tbody>
 </table>
+</div>
 </div>
 </body>
 </html>
