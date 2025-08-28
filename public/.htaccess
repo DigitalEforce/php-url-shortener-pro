@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect /r/shortcode to redirect.php
+RewriteRule ^r/([a-zA-Z0-9]+)$ redirect.php?c=$1 [L,QSA]

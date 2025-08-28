@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background:#f4f4f4; font-family:'Poppins',sans-serif; }
+.card { border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.2); padding:2rem; margin-top:50px;}
+.table { background-color:#fff; }
