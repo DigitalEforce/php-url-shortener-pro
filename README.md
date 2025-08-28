@@ -26,9 +26,9 @@ Built with **Bootstrap 5** for a modern, responsive interface. Easily shorten UR
 
 1. **Clone the repository**
 
-```bash
+`bash
 git clone https://github.com/DigitalEforce/php-url-shortener-pro.git
-
+`
 
 2. **Import the database** via `database/database.sql`.
 3. **Configure database** in `app/config.php`:
