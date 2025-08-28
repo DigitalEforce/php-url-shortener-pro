@@ -81,8 +81,8 @@ A professional PHP URL shortener with a secure admin dashboard and analytics. Bu
 
 ## Screenshots
 
-- Homepage: `public/assets/screenshots/homepage.png`
-- Admin Dashboard: `public/assets/screenshots/admin-dashboard.png`
+![Homepage](public/assets/screenshots/homepage.png)  
+![Admin Dashboard](public/assets/screenshots/admin-dashboard.png)
 
 ---
 
